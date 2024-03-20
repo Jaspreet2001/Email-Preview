@@ -1,0 +1,33 @@
+{
+  "name": "todo-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-inject": "^5.0.5",
+    "buffer": "^6.0.3",
+    "emailjs": "^4.0.3",
+    "emailjs-mime-parser": "^2.0.7",
+    "eml-format": "^0.6.1",
+    "eml-parser": "^2.0.3",
+    "iframe-resizer": "^4.3.9",
+    "mailparser": "^3.6.9",
+    "postal-mime": "^2.1.2",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "stream": "^0.0.2",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2",
+    "vite": "^5.0.8"
+  }
+}
